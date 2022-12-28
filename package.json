@@ -2,7 +2,7 @@
   "name": "node-ts-base",
   "version": "1.0.0",
   "description": "Node.js Typescript boilerplate to quick-start development.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "Anselmo Lima <anselmo.dev@gmail.com>",
   "bugs": {
     "url": "https://github.com/anselmodev/node-ts-base/issues"
