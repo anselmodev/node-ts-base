@@ -1,0 +1,66 @@
+# node-ts-base
+
+## Boilerplate typescript development
+
+[![TypeScript version][ts-badge]][typescript-4-9]
+[![Node.js version][nodejs-badge]][nodejs]
+
+All basic tools included and configured:
+
+- NPM [scripts](#available-scripts) operations.
+- [TypeScript][typescript] [4.9][typescript-4-9]
+- [ESLint][eslint]
+- [Jest][jest]
+- [Prettier][prettier]
+- [EditorConfig][editorconfig] 
+- [GitHub Actions][gh-actions] 
+- [Husky]
+- [Commitzen]
+
+
+### Create and start a new project
+Use the following commands:
+```sh
+npx node-typescript-base@latest <project name>
+
+cd <project name>
+
+npm run build:w
+```
+## Available Scripts
+
+- `clean` - remove coverage data, Jest cache and transpiled files,
+- `prebuild` - lint source files and tests before building,
+- `build` - transpile TypeScript to ES6,
+- `build:w` - interactive watch mode to automatically transpile source files,
+- `lint` - lint source files and tests,
+- `prettier` - reformat files,
+- `test` - run tests,
+- `test:w` - interactive watch mode to automatically re-run tests
+- `test:cover` - run tests coverage,
+
+## License
+
+Licensed under the APLv2. See the [LICENSE](https://github.com/anselmodev/node-typescript-base/blob/main/LICENSE) file for details.
+
+[ts-badge]: https://img.shields.io/badge/TypeScript-4.9-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2016.19-green.svg
+[nodejs]: https://nodejs.org/dist/latest-v16.x/docs/api/
+[gha-ci]: https://github.com/anselmodev/node-typescript-base/actions/workflows/nodejs.yml
+[typescript]: https://www.typescriptlang.org/
+[typescript-4-9]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-9/
+[sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
+[sponsor]: https://github.com/sponsors/jsynowiec
+[jest]: https://facebook.github.io/jest/
+[eslint]: https://github.com/eslint/eslint
+[prettier]: https://prettier.io
+[gh-actions]: https://github.com/features/actions
+[repo-template-action]: https://github.com/anselmodev/node-typescript-base/generate
+[esm]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+[sindresorhus-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+[nodejs-esm]: https://nodejs.org/docs/latest-v16.x/api/esm.html
+[ts47-esm]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-9/#esm-nodejs
+[editorconfig]: https://editorconfig.org
+
+[Husky]: https://typicode.github.io/husky/#/
+[Commitzen]: https://commitizen-tools.github.io/commitizen/ 
