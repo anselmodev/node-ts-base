@@ -15,7 +15,7 @@ const runCommand = command => {
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/anselmodev/node-ts-base ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/anselmodev/node-typescript-base ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`Cloning the repository ${repoName}`);
