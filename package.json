@@ -1,6 +1,6 @@
 {
   "name": "node-ts-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js Typescript boilerplate to quick-start development.",
   "license": "Apache-2.0",
   "author": "Anselmo Lima <anselmo.dev@gmail.com>",
